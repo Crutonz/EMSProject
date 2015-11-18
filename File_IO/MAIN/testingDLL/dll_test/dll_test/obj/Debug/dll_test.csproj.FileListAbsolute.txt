@@ -1,0 +1,8 @@
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\MAIN\testingDLL\dll_test\dll_test\bin\Debug\dll_test.exe.config
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\MAIN\testingDLL\dll_test\dll_test\bin\Debug\dll_test.exe
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\MAIN\testingDLL\dll_test\dll_test\bin\Debug\dll_test.pdb
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\MAIN\testingDLL\dll_test\dll_test\bin\Debug\Supporting.dll
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\MAIN\testingDLL\dll_test\dll_test\bin\Debug\Supporting.pdb
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\MAIN\testingDLL\dll_test\dll_test\obj\Debug\dll_test.csprojResolveAssemblyReference.cache
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\MAIN\testingDLL\dll_test\dll_test\obj\Debug\dll_test.exe
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\MAIN\testingDLL\dll_test\dll_test\obj\Debug\dll_test.pdb

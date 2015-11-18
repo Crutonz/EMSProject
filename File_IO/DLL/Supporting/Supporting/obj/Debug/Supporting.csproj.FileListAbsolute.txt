@@ -1,0 +1,5 @@
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\DLL\Supporting\Supporting\bin\Debug\Supporting.dll
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\DLL\Supporting\Supporting\bin\Debug\Supporting.pdb
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\DLL\Supporting\Supporting\obj\Debug\Supporting.csprojResolveAssemblyReference.cache
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\DLL\Supporting\Supporting\obj\Debug\Supporting.dll
+C:\Users\marcin\Documents\GitHub\experimental_code\EX_CS\File_IO\DLL\Supporting\Supporting\obj\Debug\Supporting.pdb

@@ -1,0 +1,41 @@
+;
+; NOTE: any line that begins with a semi-colon are COMMENTS and can be ignored by the FileIO class
+;   -- just as a side note ... when you are developing your FileIO class and working on the FileIO
+;      method to write out a new DBase file -- it might be a nice touch to add a comment line to the
+;      top of that saved file indicating something like this ...
+;
+;                   ;
+;                   ; Date Created : 2010-09-03 07:40:00
+;                   ; Further Comments : 
+;                   ;
+;      Its not necessary, but it might be a nice touch for users of your EMS solution at Omnicorp
+;      Corporation to be able to comment their own files ...
+;
+; FILE FORMAT :  The EMS DBase file format is a generic, pipe-delimited CSV file format comprised 
+;                of multiple columns of data.  Each record in the DBase file *must be* in the following
+;                format:
+;
+; EmployeeType|LastName|FirstName|SIN|dateOfBirth|<different fields here depending on EmployeeType value>|
+;
+;                For example, here is a typical FulltimeEmployee type of record:
+;                       FT|Clarke|Sean|333333333|1950-05-05|1960-05-05|N/A|15000.00|
+;
+;                Here is a typical ParttimeEmployee type of record:
+;                       PT|Clarke|Sean|333333333|1950-05-05|1955-05-05|1959-05-05|1.23|
+;
+;                Here is a typical ContractEmployee type of record:
+;                       CT|Sean Inc.||170123888|1970-01-01|1980-01-01|1985-12-31|1000000.00|
+;
+;                Here is a typical SeasonalEmployee type of record:
+;                       SN|Clarke|Sean|333333333|1950-05-05|WINTER|0.15|
+;
+;                So I present to you a sample EMS DBase file for you to use in your development ...
+; 
+;
+; -- Sample Data --
+;
+FT|Clarke|Sean|333333333|1950-05-05|1960-05-05|N/A|15000.00|
+PT|Clarke|Sean|333333333|1950-05-05|1955-05-05|1959-05-05|1.23|
+CT|Sean-Inc||170123888|1970-01-01|1980-01-01|1985-12-31|1000000.00|
+SN|Clarke|Sean|333333333|1950-05-05|WINTER|0.15|
+
