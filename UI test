@@ -1,0 +1,131 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using testlib;
+using Databaselib;
+using Employeetypelib;
+
+namespace test
+{
+    class Program
+    {
+      
+        static void Main(string[] args)
+        {
+            database_class d = new database_class();
+            employee_type_class e = new employee_type_class();
+            int ch;
+             Class1 c = new Class1();
+             c.testme();
+             Console.WriteLine(" SELECT YOUR CHOICE");
+             ch=Convert.ToInt16(Console.ReadLine());
+
+            switch(ch)
+            {
+                case 1:
+                    d.databasemenu();
+                    break;
+                case 2:
+                    e.employetypemenu();
+                    break;
+                case 3:
+                    d.databasemenu();
+                    break;
+            }
+
+             Console.Read();
+
+        }
+        
+        
+        
+        
+        
+        ---------------------------------------------------------------------------------------------------------------
+        using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace testlib
+{
+    public class Class1
+    {
+       
+        public void testme()
+        {
+            Console.WriteLine("MAIN MENUE");
+            Console.WriteLine("   1.MANAGE DATABASE");
+            Console.WriteLine("   2.MANAGE EMPLOYES");
+            Console.WriteLine("   3.QUIT THE PROGRAM");
+        }
+    }
+}
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Employeetypelib
+{
+    public class employee_type_class
+    {
+
+        public void employetypemenu()
+        {
+            Console.WriteLine(" CHOSE EMPLOYEE TYPE");
+            Console.WriteLine("    1.FULL TIME");
+            Console.WriteLine("    2.PART TIME");
+            Console.WriteLine("    3.SEASONAL");
+            Console.WriteLine("    4.CONTRACT");
+            Console.WriteLine("    5.RETURN TO MAIN MENUE");
+        }
+    }
+}
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Databaselib
+{
+    public class database_class
+    {
+        public void databasemenu()
+        {
+            int ch;
+            Console.WriteLine("DATABSE MANAGEMENT MENUE");
+            Console.WriteLine("    1.LOAD EMS DATABASE FROM FILE");
+            Console.WriteLine("    2.SAVE EMPLOYE SET");
+            Console.WriteLine("    3.RETURN TO MAIN MENUE");
+            Console.WriteLine("      ENTER YOUR CHOICE");
+            ch = Convert.ToInt16(Console.ReadLine());
+
+            switch(ch)
+            {
+
+                
+
+            }
+
+
+        }
+    }
+}
+
+    }
+}
+---------------------------------------------------------------------------------------------
